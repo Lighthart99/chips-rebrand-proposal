@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif'],
       },
       animation: {
         'spin-slow': 'spin 3s linear infinite',
@@ -12,4 +13,8 @@ export default {
     },
   },
   plugins: [],
+  // Ensure all default Tailwind utilities are available
+  corePlugins: {
+    preflight: true,
+  },
 };
