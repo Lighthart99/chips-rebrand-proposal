@@ -4,15 +4,15 @@ import {
   BrowserRouter as Router,
   Routes,
 } from 'react-router-dom';
-import VipProgramModal from './components/vip-program/VipProgramModal';
-import Wallet from './components/Wallet';
+import SportsCardPage from './pages/sportscard/SportsCardPage';
+import SlotsRedesignPage from './pages/slots-redesign/SlotsRedesignPage';
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/wallet" element={<Wallet />} />
-        <Route path="/vip-program" element={<VipProgramModal />} />
+        <Route path="/sports-card" element={<SportsCardPage />} />
+        <Route path="/slots-redesign" element={<SlotsRedesignPage />} />
         <Route path="/" element={<Navigate to="/wallet" replace />} />
       </Routes>
     </Router>

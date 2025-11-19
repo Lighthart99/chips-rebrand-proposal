@@ -3,6 +3,9 @@
 @import 'remixicon/fonts/remixicon.css';
 @import "tailwindcss";
 
+/* Custom font loading */
+
+
 /* Font setup for headings */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Poppins', sans-serif;
@@ -14,6 +17,7 @@ p, span {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
 }
+
 
 /* Font weight utilities */
 .font-thin {
